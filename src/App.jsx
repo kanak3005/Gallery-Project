@@ -93,9 +93,9 @@ const App = () => {
                 setUserData([])
                 setIndex(index - 1)
               }} //Click Prev: Data Empty ->Loading Show -> New API Call-> New Images
-              className="w-10 h-10 rounded-md bg-zinc-900 border border-zinc-700 hover:border-amber-400 disabled:opacity-40"
+              className="w-10 h-10 rounded-md bg-zinc-900 border border-zinc-700 hover:border-amber-400 disabled:opacity-40 flex items-center justify-center"
             >
-              <MoveLeft />
+              <MoveLeft size={18} />
             </button>
 
             {/* First Page */}
@@ -163,9 +163,9 @@ const App = () => {
                 setUserData([])
                 setIndex(index + 1)
               }}
-              className="w-10 h-10 rounded-md bg-zinc-900 border border-zinc-700 hover:border-amber-400 disabled:opacity-40"
+              className="w-10 h-10 rounded-md bg-zinc-900 border border-zinc-700 hover:border-amber-400 disabled:opacity-40 flex items-center justify-center"
             >
-           <MoveRight />
+           <MoveRight size={18} />
             </button>
 
           </div>
